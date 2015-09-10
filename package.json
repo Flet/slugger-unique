@@ -1,0 +1,35 @@
+{
+  "name": "slugger-unique",
+  "description": "Create slugs using slugger while ensuring they are unique.",
+  "version": "1.0.0",
+  "author": "Dan Flettre <fletd01@yahoo.com>",
+  "bugs": {
+    "url": "https://github.com/flet/slugger-unique/issues"
+  },
+  "devDependencies": {
+    "standard": "*",
+    "tap-spec": "^4.0.2",
+    "tape": "^4.0.0"
+  },
+  "homepage": "https://github.com/flet/slugger-unique",
+  "keywords": [
+    "browser",
+    "slug",
+    "slugg",
+    "slugger",
+    "url",
+    "utils"
+  ],
+  "license": "ISC",
+  "main": "slugger-unique.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/flet/slugger-unique.git"
+  },
+  "scripts": {
+    "test": "standard && tape test/*.js | tap-spec"
+  },
+  "dependencies": {
+    "slugger": "^1.0.0"
+  }
+}
