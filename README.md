@@ -6,7 +6,7 @@
 [npm-image]: https://img.shields.io/npm/v/slugger-unique.svg?style=flat-square
 [npm-url]: https://www.npmjs.com/package/slugger-unique
 [travis-image]: https://img.shields.io/travis/flet/slugger-unique.svg?style=flat-square
-[travis-url]: https://travis-ci.org/flet/slugger-unique
+[travis-url]: https://travis-ci.org/Flet/slugger-unique
 
 Create slugs using [slugger](https://github.com/HenrikJoreteg/slugger) while ensuring they are unique.
 
