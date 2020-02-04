@@ -25,7 +25,7 @@ BananaSlug.prototype.slug = function (value) {
   return slug
 
   function slugMatches (s) {
-    var slugMatch = new RegExp(slug + '(-[0-9])*$')
+    var slugMatch = new RegExp(slug + '(-[0-9]*)*$')
     return slugMatch.test(s)
   }
 
